@@ -10,7 +10,7 @@ game:shutdown(); -- closes the game.
 ]]
 -- this configuration is slow, test on ALT ACCOUNTS configurations so you get your desired ammount.
 getgenv().settings = {
-  FarmCooldown = "0.5"; -- the cooldown of the fireservers. (if the number is too small then you might get banned.)
+  FarmCooldown = "0.05"; -- the cooldown of the fireservers. (if the number is too small then you might get banned.)
   ExtraAutofarm= false; -- enables one extra autofarm. (THIS SLOWS THE AUTOFARM A LOT)
   ExtraFarmCombo= "5"; -- The multiplier that increases points. (if your ingame level is low then put this number on 1 or 2)
   autosell = false;
